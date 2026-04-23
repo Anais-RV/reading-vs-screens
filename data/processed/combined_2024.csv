@@ -1,0 +1,11 @@
+country,avg_daily_total_screen_min,avg_daily_social_media_min,avg_daily_reading_min,pct_reads_regularly,avg_books_per_year,ratio_screen_vs_reading
+España,420,98,18,64.4,8.2,23.3
+México,445,117,14,55.3,5.3,31.8
+Argentina,430,115,16,58.1,6.8,26.9
+Colombia,420,110,13,52.7,4.9,32.3
+Chile,410,105,15,57.0,5.7,27.3
+Alemania,350,72,22,71.2,12.1,15.9
+Francia,360,80,20,68.5,10.4,18.0
+Reino Unido,370,78,24,73.1,13.0,15.4
+Estados Unidos,400,95,17,75.0,12.6,23.5
+Japón,310,55,26,79.4,14.2,11.9

@@ -1,0 +1,11 @@
+study_id,institution,year,metric,reading_group_value,control_group_value,unit,sample_size,doi
+S001,University of Sussex,2009,stress_reduction,68,0,percent,116,10.1037/0096-3445.138.4.674
+S002,Emory University,2013,neural_connectivity_increase,21,0,percent,21,10.1016/j.brainres.2013.11.009
+S003,University of Toronto,2013,empathy_score_increase,29,0,percent,166,10.1126/science.1239918
+S004,Rush University Medical Center,2013,cognitive_decline_reduction,32,0,percent,294,10.1212/WNL.0b013e31828615e5
+S005,University of Liverpool,2019,vocabulary_growth,50,0,percent,400,10.1080/17470218.2019.1565561
+S006,Stanford University,2012,deep_attention_improvement,41,0,percent,32,10.1016/j.neuropsychologia.2011.10.026
+S007,Yale University,2016,longevity_increase_years,2,0,years,3635,10.1093/gerona/glw064
+S008,University of Montreal,2014,memory_retention_increase,38,0,percent,90,10.1016/j.neurobiolaging.2014.03.001
+S009,Carnegie Mellon University,2008,white_matter_integrity,12,0,percent,72,10.1038/nn.2072
+S010,University of Michigan,2010,critical_thinking_score,35,0,percent,202,10.1080/01638530903503154

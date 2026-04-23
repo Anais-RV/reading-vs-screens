@@ -1,0 +1,9 @@
+generation_label,age_range,country,pct_reads_regularly,avg_books_per_year,avg_daily_reading_min,avg_daily_social_media_min,year,source
+GenZ,16-24,España,57.4,5.2,13,197,2024,FGEE Hábitos de Lectura y Compra de Libros 2024
+Millennial,25-40,España,64.8,8.1,17,148,2024,FGEE Hábitos de Lectura y Compra de Libros 2024
+GenX,41-55,España,69.3,9.4,20,103,2024,FGEE Hábitos de Lectura y Compra de Libros 2024
+Boomer,56+,España,71.9,10.1,22,71,2024,FGEE Hábitos de Lectura y Compra de Libros 2024
+GenZ,18-29,Estados Unidos,72.0,11.8,15,201,2023,Pew Research Center Books and Reading 2023
+Millennial,30-49,Estados Unidos,79.0,14.2,18,156,2023,Pew Research Center Books and Reading 2023
+GenX,50-64,Estados Unidos,76.0,12.1,16,112,2023,Pew Research Center Books and Reading 2023
+Boomer,65+,Estados Unidos,73.0,10.8,19,78,2023,Pew Research Center Books and Reading 2023

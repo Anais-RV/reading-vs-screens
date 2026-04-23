@@ -1,0 +1,539 @@
+/* assets/custom.css — estilos globales del dashboard */
+
+:root {
+    --cream: #FDEDD4;
+    --hot-red: #F20815;
+    --green-pop: #11A253;
+    --pink-pop: #FCA4E0;
+    --blue-ink: #155FCC;
+
+    --pink-soft: #FEBAED;
+    --orange-pop: #FF6C1F;
+    --olive-soft: #AEA343;
+    --gold-pop: #FDB52A;
+    --sky-soft: #76B3D0;
+
+    --text-primary: #112347;
+    --text-secondary: #304971;
+    --surface: #FFFFFF;
+    --surface-soft: #FFF8EF;
+}
+
+.hero-header {
+    text-align: center;
+    padding: 2rem 1rem 1rem;
+    margin-bottom: 2rem;
+}
+
+.hero-header h1 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+}
+
+.hero-header p {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.stat-hero {
+    background: linear-gradient(135deg, var(--green-pop) 0%, var(--blue-ink) 100%);
+    border-radius: 16px;
+    padding: 2.5rem 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.stat-hero-number {
+    font-size: 5rem;
+    font-weight: 800;
+    color: white;
+    line-height: 1;
+}
+
+.stat-hero-label {
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.9);
+    max-width: 400px;
+}
+
+.stat-hero-source {
+    font-size: 0.85rem;
+    color: rgba(255, 255, 255, 0.6);
+    font-style: italic;
+}
+
+.kpi-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.kpi-card {
+    background: var(--surface);
+    border: 1px solid #E8EAF2;
+    border-radius: 16px;
+    padding: 1.5rem 1rem;
+    text-align: center;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+    transition: transform 0.2s;
+}
+
+.kpi-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 24px rgba(21, 95, 204, 0.16);
+}
+
+.kpi-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 52px;
+    height: 52px;
+    margin: 0 auto 0.75rem;
+    border-radius: 999px;
+    background: linear-gradient(145deg, #edf3ff 0%, #ffffff 100%);
+    border: 1px solid #d8e4fb;
+    font-size: 0.72rem;
+    letter-spacing: 0.08em;
+    font-weight: 800;
+    color: var(--blue-ink);
+}
+
+.icon-sm {
+    width: 24px;
+    height: 24px;
+    color: currentColor;
+}
+
+.kpi-value {
+    font-size: 2.4rem;
+    font-weight: 800;
+    color: var(--blue-ink);
+    line-height: 1;
+    margin-bottom: 0.25rem;
+}
+
+.kpi-label {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 0.2rem;
+}
+
+.kpi-context {
+    font-size: 0.78rem;
+    color: #6B7FA2;
+}
+
+.section-title {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+@media (max-width: 768px) {
+    .kpi-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.brain-hero {
+    display: grid;
+    grid-template-columns: 1.45fr 0.8fr;
+    gap: 1.25rem;
+    padding: 2rem 0 0.75rem;
+    align-items: stretch;
+}
+
+.brain-hero-copy,
+.brain-hero-panel,
+.brain-contrast-card,
+.brain-side-note,
+.brain-quote-block,
+.brain-gallery-card,
+.brain-mini-card {
+    border-radius: 24px;
+}
+
+.brain-kicker,
+.brain-section-eyebrow,
+.brain-card-topline,
+.brain-gallery-tag {
+    display: inline-block;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    font-size: 0.72rem;
+    font-weight: 700;
+}
+
+.brain-hero-copy {
+    background:
+        radial-gradient(circle at top left, rgba(252, 164, 224, 0.35), transparent 34%),
+        linear-gradient(135deg, var(--surface-soft) 0%, #ffffff 56%, #f1f8ff 100%);
+    border: 1px solid #E6EBF8;
+    padding: 2.3rem;
+}
+
+.brain-kicker,
+.brain-section-eyebrow,
+.brain-card-topline {
+    color: var(--green-pop);
+    margin-bottom: 0.75rem;
+}
+
+.brain-hero-copy h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 3rem;
+    line-height: 0.98;
+    letter-spacing: -0.03em;
+    color: var(--text-primary);
+    margin: 0 0 1rem 0;
+    max-width: 11ch;
+}
+
+.brain-hero-copy p,
+.brain-side-note p,
+.brain-gallery-card p,
+.brain-quote-block p {
+    color: var(--text-secondary);
+    font-size: 1rem;
+    line-height: 1.7;
+    margin: 0;
+}
+
+.brain-hero-panel {
+    background: linear-gradient(180deg, #0f2f73 0%, var(--blue-ink) 100%);
+    color: #f8fafc;
+    padding: 1.75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    min-height: 100%;
+    box-shadow: 0 18px 50px rgba(15, 23, 42, 0.18);
+}
+
+.brain-panel-label {
+    font-size: 0.86rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 0.85rem;
+}
+
+.brain-panel-value {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 2.1rem;
+    line-height: 1.05;
+    margin-bottom: 0.75rem;
+}
+
+.brain-panel-copy {
+    font-size: 0.98rem;
+    line-height: 1.65;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.brain-mini-card {
+    padding: 1.1rem 1rem;
+    border: 1px solid #E4EAF5;
+    background: #ffffff;
+    margin-bottom: 0.35rem;
+    min-height: 112px;
+}
+
+.brain-mini-card.mint {
+    background: linear-gradient(180deg, #edfbf3 0%, #ffffff 100%);
+}
+
+.brain-mini-card.ink {
+    background: linear-gradient(180deg, #eef4ff 0%, #ffffff 100%);
+}
+
+.brain-mini-card.amber {
+    background: linear-gradient(180deg, #fff5e3 0%, #ffffff 100%);
+}
+
+.brain-mini-value {
+    color: var(--text-primary);
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 1;
+    margin-bottom: 0.45rem;
+}
+
+.brain-mini-label {
+    color: var(--text-secondary);
+    font-size: 0.92rem;
+    line-height: 1.45;
+}
+
+.brain-contrast-card {
+    min-height: 360px;
+    padding: 1.5rem 1.45rem;
+    border: 1px solid #E4EAF5;
+}
+
+.brain-contrast-card.reading {
+    background: linear-gradient(180deg, #edfbf3 0%, #ffffff 100%);
+}
+
+.brain-contrast-card.scroll {
+    background: linear-gradient(180deg, #fff2f0 0%, #ffffff 100%);
+}
+
+.brain-contrast-card h3,
+.brain-side-note h3,
+.brain-gallery-card h4 {
+    color: var(--text-primary);
+    font-family: Georgia, "Times New Roman", serif;
+    line-height: 1.12;
+    margin: 0 0 1rem 0;
+}
+
+.brain-contrast-card h3 {
+    font-size: 1.8rem;
+}
+
+.brain-contrast-card ul {
+    padding-left: 1.2rem;
+    margin: 0;
+}
+
+.brain-contrast-card li {
+    color: var(--text-secondary);
+    line-height: 1.7;
+    margin-bottom: 0.8rem;
+}
+
+.brain-side-note {
+    background: linear-gradient(180deg, #fff1fa 0%, #eef6ff 100%);
+    border: 1px solid #F2D7EE;
+    padding: 1.55rem;
+    min-height: 320px;
+}
+
+.brain-side-note h3 {
+    font-size: 1.7rem;
+}
+
+.brain-note-divider {
+    height: 1px;
+    background: rgba(21, 95, 204, 0.25);
+    margin: 1rem 0;
+}
+
+.brain-quote-block {
+    position: relative;
+    background: linear-gradient(135deg, #dff0ff 0%, #fdeff9 100%);
+    padding: 2.4rem 2rem 1.8rem;
+    margin: 0.5rem 0 1.5rem;
+    overflow: hidden;
+}
+
+.brain-quote-mark {
+    position: absolute;
+    top: 0.1rem;
+    left: 1.1rem;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 5rem;
+    color: rgba(242, 8, 21, 0.23);
+    line-height: 1;
+}
+
+.brain-quote-block blockquote {
+    position: relative;
+    z-index: 1;
+    max-width: 18ch;
+    margin: 0 0 0.9rem 0;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 2.35rem;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 0.97;
+    color: var(--text-primary);
+}
+
+.brain-quote-source {
+    margin-top: 1rem;
+    font-size: 0.92rem;
+    color: var(--text-secondary);
+}
+
+.brain-quote-source a {
+    color: var(--blue-ink);
+    text-decoration: none;
+}
+
+.brain-gallery-card {
+    min-height: 180px;
+    background: linear-gradient(180deg, #ffffff 0%, #f4f8ff 100%);
+    border: 1px solid #E4EAF5;
+    padding: 1.45rem;
+}
+
+.brain-gallery-card.dark {
+    background: linear-gradient(180deg, #11306f 0%, var(--blue-ink) 100%);
+    border-color: #2D65BF;
+}
+
+.brain-gallery-tag {
+    color: var(--orange-pop);
+    margin-bottom: 0.75rem;
+}
+
+.brain-gallery-card.dark .brain-gallery-tag {
+    color: var(--gold-pop);
+}
+
+.brain-gallery-card.dark h4,
+.brain-gallery-card.dark p {
+    color: #f8fafc;
+}
+
+.brain-hero.home-hero .brain-hero-copy h1,
+.brain-hero.inner-page-hero .brain-hero-copy h1 {
+    max-width: 13ch;
+}
+
+.trust-strip {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem;
+    margin: 0.85rem 0 1.1rem;
+}
+
+.trust-pill {
+    padding: 0.55rem 0.85rem;
+    border-radius: 999px;
+    border: 1px solid #D6E1F4;
+    background: #F4F8FF;
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+    line-height: 1.2;
+}
+
+.trust-note {
+    margin: 1rem 0 1.25rem;
+    padding: 1rem 1.1rem;
+    border-left: 4px solid var(--green-pop);
+    background: linear-gradient(180deg, #edf9f1 0%, #ffffff 100%);
+    border-radius: 0 14px 14px 0;
+    color: var(--text-secondary);
+    line-height: 1.65;
+}
+
+.trust-note.compact {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+.stat-hero.editorial {
+    background: linear-gradient(135deg, var(--green-pop) 0%, var(--blue-ink) 100%);
+    box-shadow: 0 18px 40px rgba(21, 95, 204, 0.2);
+}
+
+.ig-cta {
+    margin: 0.2rem 0 1.1rem;
+    padding: 0.9rem 1rem;
+    border-radius: 14px;
+    border: 1px dashed #8CB4E8;
+    background: linear-gradient(90deg, #F3F8FF 0%, #FDEFF9 100%);
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    line-height: 1.55;
+}
+
+.manifesto-card {
+    margin: 0.25rem 0 1rem;
+    border-radius: 20px;
+    border: 1px solid #F2D7EE;
+    background:
+        radial-gradient(circle at 8% 0%, rgba(252, 164, 224, 0.22), transparent 40%),
+        linear-gradient(120deg, #fffaf3 0%, #fff6fe 55%, #f4f9ff 100%);
+    padding: 1.25rem 1.25rem 1.1rem;
+}
+
+.manifesto-card h3 {
+    margin: 0 0 0.55rem;
+    color: var(--text-primary);
+    font-size: 1.25rem;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+.manifesto-card p {
+    margin: 0.45rem 0;
+    color: var(--text-secondary);
+    line-height: 1.6;
+}
+
+/* ── Timeline neural ── */
+.fase-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 0.55rem;
+    margin-top: 0.9rem;
+}
+
+.fase-item {
+    display: grid;
+    grid-template-columns: 10px 1fr;
+    gap: 0.55rem 0.7rem;
+    align-items: start;
+}
+
+.fase-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-top: 0.28rem;
+    flex-shrink: 0;
+}
+
+.fase-nombre {
+    grid-column: 2;
+    font-weight: 700;
+    font-size: 0.85rem;
+    color: #E2E8F0;
+    line-height: 1.3;
+    display: block;
+}
+
+.fase-desc {
+    grid-column: 2;
+    font-size: 0.8rem;
+    color: #94A3B8;
+    line-height: 1.5;
+    display: block;
+}
+
+@media (max-width: 900px) {
+    .brain-hero {
+        grid-template-columns: 1fr;
+    }
+
+    .brain-hero-copy h1 {
+        font-size: 2.35rem;
+        max-width: none;
+    }
+
+    .brain-quote-block blockquote {
+        font-size: 1.8rem;
+        max-width: none;
+    }
+
+    .trust-strip {
+        flex-direction: column;
+    }
+}

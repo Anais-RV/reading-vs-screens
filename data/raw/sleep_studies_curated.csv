@@ -1,0 +1,5 @@
+study_id,institution,year,domain,metric,screen_value,reading_value,unit,sample_size,doi,description
+SL001,University of Pittsburgh,2017,sleep,sleep_disturbance_odds_ratio,1.95,0.64,odds_ratio,1788,10.1016/j.pmedr.2017.01.010,Cuartil alto de uso de redes vs cuartil bajo: probabilidad de alteración del sueño
+SL002,Harvard Medical School / BWH,2015,sleep,melatonin_suppression_pct,55.0,8.0,percent,12,10.1073/pnas.1418490112,Supresión de melatonina: pantalla LED antes de dormir vs lectura en papel
+SL003,Harvard Medical School / BWH,2015,sleep,circadian_delay_hours,1.5,0.2,hours,12,10.1073/pnas.1418490112,Retraso del reloj circadiano: pantalla LED antes de dormir vs lectura en papel
+SL004,King's College London,2019,sleep,sleep_quality_score_deficit,2.3,0.4,points,10904,10.1093/sleep/zsz108,Déficit en puntuación Pittsburgh Sleep Quality Index asociado a uso nocturno de redes

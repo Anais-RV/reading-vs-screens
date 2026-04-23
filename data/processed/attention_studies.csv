@@ -1,0 +1,5 @@
+study_id,institution,year,domain,metric,multitasker_value,focused_value,unit,sample_size,doi,description
+AT001,Stanford University,2009,attention,distraction_susceptibility_score,76.0,42.0,score_0_100,262,10.1073/pnas.0903620106,Susceptibilidad a interferencia de estímulos irrelevantes: multitaskers habituales vs control
+AT002,UC Irvine,2008,attention,refocus_time_minutes,23.0,0.0,minutes,49,10.1145/1357054.1357072,Tiempo medio para recuperar foco completo tras una interrupción digital
+AT003,UC Irvine,2023,attention,avg_attention_span_seconds,47.0,420.0,seconds,276,10.1145/3544548.3580600,Segundos medios de atención sostenida en pantalla vs lectura en papel (estimado comparativo)
+AT004,Stanford University,2009,attention,working_memory_filtering,38.0,71.0,score_0_100,262,10.1073/pnas.0903620106,Capacidad de filtrado en memoria de trabajo: heavy multitaskers vs light multitaskers

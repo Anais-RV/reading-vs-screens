@@ -1,0 +1,150 @@
+{
+  "parametros_base": {
+    "base_daily_scroll_minutes": 92.5,
+    "minutes_to_pages": 1.0,
+    "avg_pages_per_book": 724.52
+  },
+  "formula_lectura": {
+    "minutos_a_horas_anuales": "(X * 365) / 60",
+    "minutos_a_libros_directa": "(X * 365 * minutes_to_pages) / avg_pages_per_book"
+  },
+  "tabla_conversion_slider": [
+    { "minutos_reclamados": 0, "horas_anuales": 0.0, "dias_completos": 0.0, "libros_aprox": 0.0, "copy_impactante": "Punto de partida: el algoritmo decide por ti." },
+    { "minutos_reclamados": 15, "horas_anuales": 91.2, "dias_completos": 3.8, "libros_aprox": 7.6, "copy_impactante": "Recuperas casi 4 dias al ano para leer lo que tu eliges." },
+    { "minutos_reclamados": 30, "horas_anuales": 182.5, "dias_completos": 7.6, "libros_aprox": 15.1, "copy_impactante": "Recuperas una semana larga de vida atenta, no deslizada." },
+    { "minutos_reclamados": 45, "horas_anuales": 273.8, "dias_completos": 11.4, "libros_aprox": 22.7, "copy_impactante": "Mas de 11 dias de criterio recuperado." },
+    { "minutos_reclamados": 60, "horas_anuales": 365.0, "dias_completos": 15.2, "libros_aprox": 30.2, "copy_impactante": "Medio mes al ano para pensar con calma y leer sin prisa." },
+    { "minutos_reclamados": 75, "horas_anuales": 456.2, "dias_completos": 19.0, "libros_aprox": 37.8, "copy_impactante": "Casi 19 dias de atencion fuera del ruido." },
+    { "minutos_reclamados": 90, "horas_anuales": 547.5, "dias_completos": 22.8, "libros_aprox": 45.3, "copy_impactante": "Casi 23 dias: un bloque de vida para reclamar criterio." },
+    { "minutos_reclamados": 105, "horas_anuales": 638.8, "dias_completos": 26.6, "libros_aprox": 52.9, "copy_impactante": "Mas de 26 dias: dejas de reaccionar y empiezas a elegir." },
+    { "minutos_reclamados": 120, "horas_anuales": 730.0, "dias_completos": 30.4, "libros_aprox": 60.5, "copy_impactante": "Un mes completo de vida mental fuera del scroll." },
+    { "minutos_reclamados": 135, "horas_anuales": 821.2, "dias_completos": 34.2, "libros_aprox": 68.0, "copy_impactante": "Mas de un mes: la atencion vuelve a ser tuya." },
+    { "minutos_reclamados": 150, "horas_anuales": 912.5, "dias_completos": 38.0, "libros_aprox": 75.6, "copy_impactante": "Mas de 38 dias para construir una voz propia." },
+    { "minutos_reclamados": 165, "horas_anuales": 1003.8, "dias_completos": 41.8, "libros_aprox": 83.1, "copy_impactante": "Cuarenta dias largos para leer sin pedir permiso." },
+    { "minutos_reclamados": 180, "horas_anuales": 1095.0, "dias_completos": 45.6, "libros_aprox": 90.7, "copy_impactante": "45 dias: una temporada entera para reclamar tu atencion." }
+  ],
+  "quiz_logic": {
+    "preguntas": [
+      {
+        "codigo": "P1",
+        "texto": "Cual es tu relacion con la lectura?",
+        "reflexion": "No hay respuestas incorrectas, solo matices de tu curiosidad.",
+        "opciones": [
+          { "codigo": "ESC", "texto": "Escapo del ruido" },
+          { "codigo": "ENT", "texto": "Busco entender el mundo" },
+          { "codigo": "EXP", "texto": "Exploro sentimientos" },
+          { "codigo": "REA", "texto": "Me pierdo en historias reales" }
+        ]
+      },
+      {
+        "codigo": "P2",
+        "texto": "Cuanto tiempo quieres invertir por libro?",
+        "reflexion": "El ritmo importa: leer no es una carrera, es una forma de estar.",
+        "opciones": [
+          { "codigo": "COR", "texto": "Corto y potente (<150 pags)" },
+          { "codigo": "MED", "texto": "A ritmo tranquilo (150-300 pags)" },
+          { "codigo": "LAR", "texto": "Inmersion profunda (>300 pags)" },
+          { "codigo": "VAR", "texto": "Depende del libro" }
+        ]
+      },
+      {
+        "codigo": "P3",
+        "texto": "Que buscas al leer?",
+        "reflexion": "Toda lectura deja una huella: criterio, conexion, belleza o aventura.",
+        "opciones": [
+          { "codigo": "CRI", "texto": "Criterio" },
+          { "codigo": "CON", "texto": "Conexion" },
+          { "codigo": "BEL", "texto": "Belleza" },
+          { "codigo": "AVE", "texto": "Aventura" }
+        ]
+      }
+    ],
+    "weights": {
+      "P1": {
+        "ESC": { "escapista-politica": 3, "aventurera-reflexiva": 1 },
+        "ENT": { "lectora-politica": 3, "archivista-de-lo-real": 1 },
+        "EXP": { "exploradora-empatica": 3, "escapista-politica": 1 },
+        "REA": { "archivista-de-lo-real": 3, "lectora-politica": 1 }
+      },
+      "P2": {
+        "COR": { "archivista-de-lo-real": 2, "aventurera-reflexiva": 1 },
+        "MED": { "exploradora-empatica": 2, "aventurera-reflexiva": 1 },
+        "LAR": { "lectora-politica": 2, "escapista-politica": 1 },
+        "VAR": { "aventurera-reflexiva": 2, "escapista-politica": 1 }
+      },
+      "P3": {
+        "CRI": { "lectora-politica": 3, "archivista-de-lo-real": 1 },
+        "CON": { "exploradora-empatica": 3, "archivista-de-lo-real": 1 },
+        "BEL": { "escapista-politica": 3, "exploradora-empatica": 1 },
+        "AVE": { "aventurera-reflexiva": 3, "escapista-politica": 1 }
+      }
+    }
+  },
+  "arquetipos": [
+    {
+      "id": "escapista-politica",
+      "nombre": "Escapista Politica",
+      "descripcion": "Usa la ficcion para ensayar mundos posibles y leer el poder desde fuera.",
+      "motivacion_principal": "Entender el mundo a traves de tramas simbolicas.",
+      "libros": [
+        { "titulo": "1984", "autor": "George Orwell", "paginas": 328, "genero": "Distopia", "horas_estimadas": 7.3, "por_que_aqui": "Ficcion sobre vigilancia, poder y lenguaje." },
+        { "titulo": "Fahrenheit 451", "autor": "Ray Bradbury", "paginas": 194, "genero": "Distopia", "horas_estimadas": 4.3, "por_que_aqui": "Pregunta quien decide que ideas sobreviven." },
+        { "titulo": "El cuento de la criada", "autor": "Margaret Atwood", "paginas": 311, "genero": "Distopia", "horas_estimadas": 6.9, "por_que_aqui": "Poder sobre cuerpo, memoria y deseo." },
+        { "titulo": "La mano izquierda de la oscuridad", "autor": "Ursula K. Le Guin", "paginas": 304, "genero": "Ciencia ficcion", "horas_estimadas": 6.8, "por_que_aqui": "Politica e identidad en otro orden social." },
+        { "titulo": "Cadaver exquisito", "autor": "Agustina Bazterrica", "paginas": 256, "genero": "Distopia contemporanea", "horas_estimadas": 5.7, "por_que_aqui": "Allegoria feroz sobre consumo y normalizacion." }
+      ]
+    },
+    {
+      "id": "exploradora-empatica",
+      "nombre": "Exploradora Empatica",
+      "descripcion": "Lee para ampliar sensibilidad y perspectiva humana.",
+      "motivacion_principal": "Reconocerse en otras vidas y complejizar su mirada.",
+      "libros": [
+        { "titulo": "Los asquerosos", "autor": "Santiago Lorenzo", "paginas": 224, "genero": "Novela contemporanea", "horas_estimadas": 5.0, "por_que_aqui": "Humor, fragilidad y formas de vida alternativas." },
+        { "titulo": "Nada", "autor": "Carmen Laforet", "paginas": 296, "genero": "Clasico contemporaneo", "horas_estimadas": 6.6, "por_que_aqui": "Juventud, precariedad y busqueda de voz propia." },
+        { "titulo": "Ordesa", "autor": "Manuel Vilas", "paginas": 336, "genero": "Memoir", "horas_estimadas": 7.5, "por_que_aqui": "Duelo y memoria familiar sin sentimentalismo." },
+        { "titulo": "El infinito en un junco", "autor": "Irene Vallejo", "paginas": 464, "genero": "Ensayo narrativo", "horas_estimadas": 10.3, "por_que_aqui": "Defensa sensible de la lectura y su historia." },
+        { "titulo": "Pequenas cosas como estas", "autor": "Claire Keegan", "paginas": 128, "genero": "Novela corta", "horas_estimadas": 2.8, "por_que_aqui": "Minimalismo emocional con potencia moral." }
+      ]
+    },
+    {
+      "id": "lectora-politica",
+      "nombre": "Lectora Politica",
+      "descripcion": "Busca criterio, contexto y estructura para no pensar en automatico.",
+      "motivacion_principal": "Construir pensamiento propio frente a la economia de la distraccion.",
+      "libros": [
+        { "titulo": "Caliban y la bruja", "autor": "Silvia Federici", "paginas": 416, "genero": "Ensayo", "horas_estimadas": 9.2, "por_que_aqui": "Historia material del poder sobre cuerpos y trabajo." },
+        { "titulo": "Vigilar y castigar", "autor": "Michel Foucault", "paginas": 360, "genero": "Ensayo", "horas_estimadas": 8.0, "por_que_aqui": "Instituciones, disciplina y control social." },
+        { "titulo": "La sociedad del cansancio", "autor": "Byung-Chul Han", "paginas": 128, "genero": "Ensayo breve", "horas_estimadas": 2.8, "por_que_aqui": "Critica del rendimiento y la autoexplotacion." },
+        { "titulo": "Las venas abiertas de America Latina", "autor": "Eduardo Galeano", "paginas": 400, "genero": "Historia critica", "horas_estimadas": 8.9, "por_que_aqui": "Economia, memoria y dependencia regional." },
+        { "titulo": "No logo", "autor": "Naomi Klein", "paginas": 560, "genero": "No ficcion", "horas_estimadas": 12.4, "por_que_aqui": "Desmonta la logica de las marcas globales." }
+      ]
+    },
+    {
+      "id": "aventurera-reflexiva",
+      "nombre": "Aventurera Reflexiva",
+      "descripcion": "Necesita ritmo narrativo, pero quiere cerrar cada libro con una idea nueva.",
+      "motivacion_principal": "Combinar adrenalina narrativa con aprendizaje personal.",
+      "libros": [
+        { "titulo": "El nombre de la rosa", "autor": "Umberto Eco", "paginas": 736, "genero": "Misterio historico", "horas_estimadas": 16.4, "por_que_aqui": "Suspense intelectual sobre verdad y poder." },
+        { "titulo": "La verdad sobre el caso Harry Quebert", "autor": "Joel Dicker", "paginas": 672, "genero": "Thriller", "horas_estimadas": 14.9, "por_que_aqui": "Ritmo alto con reflexion sobre escritura y fama." },
+        { "titulo": "Patria", "autor": "Fernando Aramburu", "paginas": 648, "genero": "Narrativa contemporanea", "horas_estimadas": 14.4, "por_que_aqui": "Tension narrativa y lectura etica del conflicto." },
+        { "titulo": "Perdida", "autor": "Gillian Flynn", "paginas": 576, "genero": "Thriller psicologico", "horas_estimadas": 12.8, "por_que_aqui": "Manipulacion del relato en la esfera publica." },
+        { "titulo": "Los hombres que no amaban a las mujeres", "autor": "Stieg Larsson", "paginas": 672, "genero": "Misterio", "horas_estimadas": 14.9, "por_que_aqui": "Investigacion, periodismo y violencia estructural." }
+      ]
+    },
+    {
+      "id": "archivista-de-lo-real",
+      "nombre": "Archivista de lo Real",
+      "descripcion": "Le interesan historias verdaderas para leer la epoca en primera persona.",
+      "motivacion_principal": "Comprender vidas reales, memoria y conflicto social.",
+      "libros": [
+        { "titulo": "A sangre fria", "autor": "Truman Capote", "paginas": 368, "genero": "Cronica", "horas_estimadas": 8.2, "por_que_aqui": "No ficcion narrativa sobre crimen y sociedad." },
+        { "titulo": "Los suicidas del fin del mundo", "autor": "Leila Guerriero", "paginas": 256, "genero": "Periodismo narrativo", "horas_estimadas": 5.7, "por_que_aqui": "Escucha profunda de una comunidad en crisis." },
+        { "titulo": "El director", "autor": "David Jimenez", "paginas": 320, "genero": "Memoir periodistico", "horas_estimadas": 7.1, "por_que_aqui": "Radiografia del poder mediatico." },
+        { "titulo": "Hiroshima", "autor": "John Hersey", "paginas": 176, "genero": "Cronica historica", "horas_estimadas": 3.9, "por_que_aqui": "Seis vidas reales para entender un trauma global." },
+        { "titulo": "La ridicula idea de no volver a verte", "autor": "Rosa Montero", "paginas": 240, "genero": "No ficcion intima", "horas_estimadas": 5.3, "por_que_aqui": "Biografia, duelo y memoria cultural." }
+      ]
+    }
+  ]
+}
