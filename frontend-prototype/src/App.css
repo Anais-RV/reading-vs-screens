@@ -732,6 +732,59 @@ h3 {
   margin-left: auto;
   margin-right: auto;
   justify-content: space-between;
+  padding: 16px 18px;
+  gap: 8px;
+}
+
+.share-card.feed .card-header {
+  margin-bottom: -12px;
+}
+
+.share-card.feed .card-metric {
+  margin-bottom: -10px;
+}
+
+.share-card.feed .number {
+  font-size: 2.4rem;
+}
+
+.share-card.feed .card-profile {
+  padding: 10px 12px;
+}
+
+.share-card.feed .card-books-visual {
+  height: 32px;
+}
+
+.share-card.feed .card-books {
+  margin-bottom: -4px;
+}
+
+.share-card.feed .books-label {
+  margin-bottom: 6px;
+  font-size: 0.72rem;
+}
+
+.share-card.feed .books-list {
+  gap: 4px;
+}
+
+.share-card.feed .book-pill {
+  padding: 6px 10px;
+  font-size: 0.82rem;
+}
+
+.share-card.feed .card-footer {
+  font-size: 0.68rem;
+  padding-top: 4px;
+}
+
+.share-card.feed .card-books {
+  display: none;
+}
+
+.share-card.feed .card-books-visual {
+  display: none;
 }
 
 /* Header */
