@@ -1,137 +1,144 @@
 # 📖 TIEMPO ROBADO • Instagram Copy para Día del Libro
-## La narrativa REAL: Tech + Lectura + Política
 
 ---
 
-## LA HISTORIA COMPLETA (para el caption principal)
+## POST PRINCIPAL (La narrativa completa)
 
-**Soy ingeniera de datos. Mi trabajo es entender algoritmos, patrones, comportamientos. Y precisamente por eso sé exactamente cómo funcionan para atraparte.**
+Soy ingeniera de datos. Mi trabajo es entender cómo funcionan los algoritmos para atraparte.
 
-Este año para el #DíaDelLibro quería hacer algo especial. Decidí aunar mi profesión en tech con mi pasión por la lectura y mi compromiso con la divulgación. Así que analicé datos reales:
+Este Día del Libro decidí hacer algo especial: aunar mi profesión en tech con mi pasión por la lectura. Analicé datos reales de consumo en España:
 
-**Españoles en pantallas:** 420 minutos/día  
-**Españoles leyendo:** 18 minutos/día
+**Pantallas:** 420 min/día  
+**Lectura:** 18 min/día  
+**Diferencia:** 365 horas anuales
 
-Eso es **365 horas anuales** de diferencia. No porque seamos perezosos. Porque el algoritmo está diseñado para que caigamos en la rueda sin ser conscientes.
+No es pereza. Es que el algoritmo está arquitecturado para eso. Para que caigas sin ser consciente.
 
-Así nació **TIEMPO ROBADO**: una app pequeña y reivindicativa que te hace pensar en qué significa **recuperar solo X minutitos al día para leer**.
+Así nació **TIEMPO ROBADO**: un quiz + app que te muestra cuántas horas recuperarías al año si dedicas X minutos a leer. Descubres tu arquetipo lector, tus libros, y generas una card bonita para compartir.
 
-**¿Qué hace?**
-→ Te responde 3 preguntas (un quiz sobre ti como lectora)  
-→ Analiza cuál es tu arquetipo lector (somos 5 tipos)  
-→ Te calcula cuántas horas, días completos y libros ganarías al año  
-→ Te genera una card personalizada y bonita que puedes compartir
+**¿Por qué esto importa?**
 
-**¿Por qué?**
+Leer no es un lujo. Existen bibliotecas, intercambios, formas accesibles. Pero tu TIEMPO. Eso sí es un lujo escaso que estamos regalando sin darnos cuenta.
 
-Leer no es un lujo. Existen bibliotecas, intercambio de libros, formas accesibles de leer.
+Leer es un acto político: recuperar conscientemente lo que es tuyo. Tu atención. Tu criterio. Tu libertad de elegir.
 
-**Pero el TIEMPO. El tiempo sí es un lujo.** Un lujo escaso que estamos regalando al algoritmo sin darnos cuenta.
-
-El acto de leer es un **acto político** porque:
-- Recuperas tu tiempo (que nadie te lo robe)
-- Decides conscientemente qué consumes
-- Generas criterio propio (no el que el algoritmo elige para ti)
-- Reivindicas un lujo que es tuyo: tu atención, tu tiempo, tu libertad.
-
-Hoy, #DíaDelLibro, te invito a generar tu card. A ver reflejado en datos qué tiempo podrías recuperar. A recordar que el lujo no es tener acceso a libros (tenemos bibliotecas, intercambios). El lujo es tu tiempo. Y eso sí vale la pena reivindicar.
-
-**Entra, responde el quiz, descarga tu card** 👇  
-[LINK AL PROYECTO]
-
-No era falta de voluntad. Hay algoritmos compitiendo. Pero leer es recuperar tu criterio.
-
-#TiempoRobado #DíaDelLibro #LecturaPolitica #ContraAlgoritmos #Bookstagram #DesconectaParaLeer #CriterioRegalado #TechYLectura #ResistenciaDigital
-
----
-
-## OPCIÓN CORTA (si prefieres algo más conciso)
-
-Soy ingeniera de datos. Analicé cuánto tiempo perdemos en pantallas vs. lectura. Y creé **TIEMPO ROBADO**: un quiz + app que te muestra cuántas horas podrías recuperar al año si dedicas X min/día a leer.
-
-**¿Por qué?** Leer no es un lujo (tenemos bibliotecas, intercambios). El lujo es tu TIEMPO. Un lujo que regalamos al algoritmo sin ser conscientes. Leer es un acto político: recuperar lo que es tuyo.
-
-Hoy, #DíaDelLibro, te invito a descubrir tu arquetipo lector y generar tu card personalizada.
-
-Entra 👇
+**Entra, responde 3 preguntas, descarga tu card** 👇  
 [LINK]
 
-#TiempoRobado #DíaDelLibro #LecturaPolitica #Bookstagram
+No era falta de voluntad. Hay algoritmos compitiendo. Pero tú puedes reclamar tu tiempo.
+
+#TiempoRobado #DíaDelLibro #LecturaPolitica #ContraAlgoritmos #Bookstagram #ResistenciaDigital
 
 ---
 
-## OPCIÓN PARA CARRUSEL (5-6 slides)
+## OPCIÓN CORTA (para quien tiene poco tiempo)
 
-**Slide 1 (Hook):**
-"Soy ingeniera de datos y analicé los números. Españoles en pantallas: 420 min/día. Leyendo: 18 min/día. Eso no es falta de voluntad. Es arquitectura de algoritmos."
+Soy ingeniera de datos y creé **TIEMPO ROBADO** porque los números son brutales: 420 minutos al día en pantallas, 18 minutos leyendo. 
+
+Esto no es sobre culpa. Es sobre recuperar conscientemente lo que el algoritmo reclama sin preguntarle: tu tiempo.
+
+Un quiz de 2 minutos te dice cuántas horas, libros y días de foco ganarías al año.
+
+Porque leer es un acto político. Entra 👇  
+[LINK]
+
+#TiempoRobado #DíaDelLibro #Bookstagram
+
+---
+
+## CARRUSEL (5 slides - visual + copy corto)
+
+**Slide 1:**
+"Soy ingeniera de datos.  
+Mi trabajo: entender algoritmos.  
+Lo que descubrí: están diseñados para atraparte.  
+Lo que decidí: hacer algo al respecto."
 
 **Slide 2:**
-"Decidí hacer algo especial para el #DíaDelLibro: aunar mi profesión en tech con mi pasión por la lectura y mi compromiso con la divulgación."
+[Gráfico: 420 min pantalla vs 18 min lectura]
 
-**Slide 3 (Data Visual):**
-[Gráfico comparativo o infografía: 420 min pantalla vs 18 min lectura = 365 horas/año de diferencia]
+"No somos perezosos.  
+El algoritmo está arquitecturado para que caigas.  
+Sin ser consciente."
+
+**Slide 3:**
+"TIEMPO ROBADO es pequeño y reivindicativo.  
+
+Un quiz que te pregunta:  
+¿Cuántas horas recuperarías al año si dedicas X minutos a leer?  
+
+La respuesta es bonita. Y compartible."
 
 **Slide 4:**
-"Nació TIEMPO ROBADO: una app pequeña y reivindicativa. Responde 3 preguntas sobre ti como lectora. Obtén: tu arquetipo + horas recuperadas + libros recomendados + card personalizada."
+"Leer no es un lujo.  
+(Tenemos bibliotecas, intercambios.)
+
+Tu TIEMPO sí lo es.  
+Y estamos regalándolo."
 
 **Slide 5:**
-"¿Por qué? Porque leer es un acto político. Es recuperar tu tiempo. Es elegir conscientemente. Es generar criterio propio. Es libertad."
-
-**Slide 6 (CTA):**
-"Hoy es #DíaDelLibro. Entra, responde el quiz, descárgate tu card. No era falta de voluntad. Es resistencia."
-[LINK prominente]
+"Hoy, #DíaDelLibro.  
+Recupera lo que es tuyo.  
+[LINK prominente]"
 
 ---
 
-## PARA UN REEL (30-60 segundos)
+## REEL / VIDEO (narración + urgencia)
 
-**Opción narración en off:**
+"Sé exactamente cómo funcionan los algoritmos para atraparte. Trabajo con datos.
 
-"Soy ingeniera de datos. Mi trabajo es entender algoritmos, cómo funcionan para atraparte. Y precisamente por eso, este Día del Libro, quería hacer algo especial.
+Y he estado mirando los números españoles: 420 minutos al día en pantallas. 18 minutos leyendo.
 
-Analicé datos reales: españoles en pantallas, 420 minutos al día. Leyendo, 18 minutos. No es falta de voluntad. Es que el algoritmo está diseñado para que caigas en la rueda.
+No es porque seamos vagos. Es que el sistema está diseñado para quedarse con tu atención.
 
-Así que creé TIEMPO ROBADO. Un quiz pequeño que te hace pensar: ¿cuántas horas al año podrías recuperar si dedicas X minutos al día a leer?
+Así que creé algo para el Día del Libro. TIEMPO ROBADO. Una app que te pregunta una cosa simple: si dedicas X minutos al día a leer, ¿cuánto recuperas al año?
 
-Además, descubres tu arquetipo lector, qué libros te van a enamorar, y generas una card bonita para tu feed.
+Las respuestas son brutales. Y hermosas.
 
-Porque el acto de leer es un acto político. Es recuperar tu tiempo. Tu criterio. Tu libertad.
+Porque el lujo no es tener acceso a libros. El lujo es tu tiempo. Y eso puedes reclamarlo hoy.
 
-Entra. Responde el quiz. Descarga tu card. Hoy es el Día del Libro. Hoy es resistencia."
+[Entra, responde, comparte]"
 
-[Visuals: datos en pantalla, card generadas, tú hablando, gráfico comparativo, CTA]
-
----
-
-## NOTAS PARA LAS EDITORIALES (lo que querrán ver)
-
-1. **Eres multiforma:**
-   - Profesional en tech (datos, análisis, código)
-   - Apasionada por lectura (bookstagram auténtico)
-   - Divulgadora (sabes comunicar con criterio)
-
-2. **Tienes audiencia + visión:**
-   - Tu audiencia no solo consume libros, entiende contexto político
-   - Haces cosas bonitas Y funcionales
-   - Posicionas la lectura como acto de libertad, no consumo
-
-3. **Esto es un POV diferente:**
-   - No es "hazme unboxing de libros"
-   - Es "entiendo datos, tecnología y lectura; tengo algo relevante que decir"
-
-4. **El proyecto demuestra:**
-   - Capacidad técnica (app funcional, bonita, útil)
-   - Sensibilidad editorial (arquetipos, selección de libros)
-   - Impacto (gente que va a querer compartir su card)
+[Visuals durante: tú hablando / datos animados / cards generadas / gesto de "tu tiempo es tuyo" / CTA]
 
 ---
 
-## RECOMENDACIÓN FINAL:
+## STORY / TEXTO DIRECTO
 
-Usa la **HISTORIA COMPLETA** como post principal. Es auténtica, potente, y cuenta QUIÉN ERES.
+Opción A (político):
+"El algoritmo no controla si tienes acceso a libros. Controla tu TIEMPO. Y es lo único de verdad valioso que tienes. #TiempoRobado"
 
-Luego, para Stories: Carrusel de 3-4 slides con datos, la app, y CTA.
+Opción B (invitation):
+"¿Cuántas horas perdidas en scroll podrías convertir en lectura al año? Descúbrelo. (La respuesta te va a sorprender.) #TiempoRobado"
 
-Y si haces Reel: perfecto para alcance orgánico.
+Opción C (call to action):
+"Hoy es #DíaDelLibro. Reclámate esas 365 horas. Link en bio."
 
-**La imagen:** Una de tus cards generadas (elige la más visualmente impactante). Es meta—el proyecto mismo es la prueba de concepto.
+---
+
+## PARA EDITORIALES (qué ver en esto)
+
+El proyecto demuestra que:
+- Tienes voz propia (no eres una influencer más)
+- Entiende datos + emociones + política cultural
+- Puedes crear herramientas (no solo contenido)
+- Tu audiencia no consume—reflexiona
+
+Eso es lo que valemos.
+
+---
+
+## CUÁL USAR CUÁNDO
+
+**Post en feed:** La historia completa (es larga, pero es TUYA)
+
+**Stories sucesivas:** La opción corta + invitación a generar card + ejemplos de cards
+
+**Reel:** El guión de video (si grabas)
+
+**Carrusel:** Si prefieres visual secuencial en lugar de un post largo
+
+**Imagen:** Una card generada (es meta + prueba de concepto)
+
+**Hashtags que funcionan juntos:**  
+#TiempoRobado #DíaDelLibro #LecturaPolitica #Bookstagram #ResistenciaDigital #ContraAlgoritmos

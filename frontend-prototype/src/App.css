@@ -727,8 +727,8 @@ h3 {
 }
 
 .share-card.feed {
-  width: min(500px, 100%);
-  aspect-ratio: 1 / 1;
+  width: min(400px, 100%);
+  aspect-ratio: 4 / 5;
   margin-left: auto;
   margin-right: auto;
   justify-content: space-between;
