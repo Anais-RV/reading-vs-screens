@@ -96,7 +96,7 @@ const Card = forwardRef(function Card({ arquetipo, horas, dias, libros, minutos,
           <circle cx="12" cy="20" r="2" fill="currentColor" opacity="0.5"/>
           <line x1="12" y1="6" x2="12" y2="18" stroke="currentColor" strokeWidth="1" opacity="0.4"/>
         </svg>
-        No era falta de voluntad. Hay algoritmos compitiendo. Pero leer es recuperar tu criterio.
+        No era falta de voluntad. Reclámala de vuelta, página a página.
       </p>
     </article>
   );

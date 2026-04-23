@@ -36,7 +36,7 @@ export default function Hero({ onStart }) {
         <p className="media-label">SLOW DATA MOVEMENT</p>
         <p className="media-quote">
           No es falta de disciplina: hay una industria compitiendo por tu atención.
-          Recámala de vuelta, página a página.
+          Reclámala de vuelta, página a página.
         </p>
       </motion.aside>
     </section>
